@@ -45,6 +45,7 @@ FROM superstore
 WHERE category="Kitchen Supplies"
 
 -- Show items by name, price and stock ordering by descending price
+
 Select item_name, price, stock_quantity
 From superstore
 Order by price desc;
